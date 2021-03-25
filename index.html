@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+      <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>News API</title>
+  </head>
+
+  <body>
+
+    <nav class="sticky-top navbar-expand navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-light text-info">
+
+      <div class="collapse navbar-collapse text-uppercase font-weight-bold" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a id="homeNav" class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a id="aboutNav" class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <div class="row clearfix float-left">
+          <div class="col-4 float-left inline" id="resultCountry">
+            <select class="countryBtn custom-select text-center ">
+              <option selected>Country</option>
+              <option value="nz">New Zealand</option>
+              <option value="us">United States</option>
+              <option value="au">Australia</option>
+              <option value="za">South Africa</option>
+              <option value="ca">Canada</option>
+              <option value="it">Italy</option>
+              <option value="co">Colombia</option>
+              <option value="gb">United Kingdom</option>
+              <option value="mx">Mexico</option>
+              <option value="ve">Venezuela</option>
+            </select>
+          </div>
+          <form class="form-inline float-left">
+            <input class="form-control" id="search"  type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info" id="submitBtn" type="submit">Search</button>
+          </form>
+      </div>
+    </nav>
+     
+  
+    <section id="home" class="parallax bgOne">
+      <div class="showTime text-white mx-auto font-weight-bold text-center pt-5 ">
+      </div>
+    </section>
+     
+    <div class="jumbotron row clearfix"  >
+      <div id="results" class="row"></div>
+    </div>
+
+   
+    
+    <section id="about" class="m-5">
+      <div class="row clearfix ">
+        <div class="col-6 container">
+          <img class="img-thumbnail" src="images/nati.jpg" alt="">
+        </div>
+        <div class="container m-5 col-5">
+          <h1 class="mb-5">ABOUT NATALIA</h1>
+          <p class="aboutText">I am a junior web developer, and visual artist, with a diverse background across digital, print and photography. I am skilled in HTML5, CSS, JS, Lightroom and Photoshop. This news website is designed to aggregate content from newsapi.org.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="container-fluid bg-dark text-light text-center">
+      <p> ©2021 Yoobee <br>Developed by Natalia Ramirez</p>
+    </footer>
+
+          
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js">  </script>
+</body>
+</html>

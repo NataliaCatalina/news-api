@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;   
+}
+
+.parallax {
+  /*height: 100vh;  the view height value */
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgOne{
+  background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg&fm=jpg');
+}
+
+.showTime{
+  width: 100%;
+  font-size: 40px;
+}
+
+.welcome-txt {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  z-index: 2;
+  color: white;
+ }
+
+ /* #submit {
+  font-size: 70px;
+} */
+
+.text-1 {
+  font-size: 18px;
+}
+.text-2 {
+  font-size: 14px;
+}
+.text-3 {
+  font-size: 13px;
+}
+
+.aboutText {
+  width: 30%;
+  height: auto;
+}
+
+
